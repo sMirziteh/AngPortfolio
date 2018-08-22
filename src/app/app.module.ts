@@ -9,13 +9,15 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
-import { DashComponent } from './dash/dash.component'
+import { DashComponent } from './dash/dash.component';
+import { ResumeComponent } from './resume/resume.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    DashComponent
+    DashComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
