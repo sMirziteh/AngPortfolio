@@ -10,14 +10,18 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
 import { DashComponent } from './dash/dash.component';
-import { ResumeComponent } from './resume/resume.component'
+import { ResumeComponent } from './resume/resume.component';
+import { TskillsComponent } from './tskills/tskills.component';
+import { CskillsComponent } from './cskills/cskills.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DashComponent,
-    ResumeComponent
+    ResumeComponent,
+    TskillsComponent,
+    CskillsComponent
   ],
   imports: [
     BrowserModule,
