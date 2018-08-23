@@ -12,7 +12,10 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatListModule, Mat
 import { DashComponent } from './dash/dash.component';
 import { ResumeComponent } from './resume/resume.component';
 import { TskillsComponent } from './tskills/tskills.component';
-import { CskillsComponent } from './cskills/cskills.component'
+import { CskillsComponent } from './cskills/cskills.component';
+import { EduComponent } from './edu/edu.component';
+import { AwardsComponent } from './awards/awards.component';
+import { ExpComponent } from './exp/exp.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { CskillsComponent } from './cskills/cskills.component'
     DashComponent,
     ResumeComponent,
     TskillsComponent,
-    CskillsComponent
+    CskillsComponent,
+    EduComponent,
+    AwardsComponent,
+    ExpComponent
   ],
   imports: [
     BrowserModule,

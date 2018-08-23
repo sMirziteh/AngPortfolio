@@ -2,30 +2,34 @@
   <nav class=" teal lighten-2 ">
       <div class="nav-wrapper ">
         <div class="col s7">
-          <a href="#" class="brand-logo blue-grey-text text-darken-4 hide-on-med-and-up">SM</a>
+          <a href="#" class="brand-logo blue-grey-text text-darken-4 hide-on-med-and-up"><span class="mobile-name">Shelby Mirziteh</span></a>
           <a href="#" class="brand-logo blue-grey-text text-darken-4 hide-on-small-only">Shelby Mirziteh</a>
         </div>
         <ul id="nav-mobile" class="right hide-on-med-and-down blue-grey-text text-darken-4">
+          <li><button class="btn-small btn-flat"><img src="./images/linkedinIcon.png" alt="LinkedIn Link" class=" icons"></button></li>
+          <li><button class="btn-small btn-flat"><img src="./images/githubicon.png" alt="Github Link" class=" icons"></button></li>
           <li><a href="#" class="blue-grey-text text-darken-4">Shelby.Mirziteh@gmail.com</a></li>
           <li><a href="#" class="blue-grey-text text-darken-4">(206) 683-5918</a></li>
-          <li><a  mat-icon-button [matMenuTriggerFor]="appMenu"> <mat-icon>more_vert</mat-icon>
-          </a></li>
+          <!-- <li><a  mat-icon-button [matMenuTriggerFor]="appMenu"> <mat-icon>more_vert</mat-icon>
+          </a></li> -->
         </ul>
         <ul class="right hide-on-large-only">
           <li>
               <button mat-icon-button [matMenuTriggerFor]="appMenu">
-                  <mat-icon>more_vert</mat-icon>
+                  <mat-icon class="blue-grey-text text-darken-4">more_vert</mat-icon>
                 </button>
           </li>
         </ul>
       </div>
     </nav>
     <mat-menu #appMenu="matMenu">
-        <button mat-menu-item>Settings</button>
-        <button mat-menu-item>Help</button>
+        <button mat-menu-item class=" btn-flat"><img src="./images/linkedinIcon.png" alt="LinkedIn Link" class=" menuLink"></button>
+        <button mat-menu-item class=" btn-flat"><img src="./images/githubicon.png" alt="Github Link" class=" menuLink"></button>
+        <button mat-menu-item>Email</button>
+        <button mat-menu-item>Phone</button>
       </mat-menu>
-  
-  <div class="col sidePiece  teal lighten-2 hide-on-med-and-down">
+  <div class="col sidePiece   hide-on-med-and-down">
+    <div class="section"></div>
     <app-tskills></app-tskills>
   </div>
   <div class="row">
