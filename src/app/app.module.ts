@@ -15,7 +15,8 @@ import { TskillsComponent } from './tskills/tskills.component';
 import { CskillsComponent } from './cskills/cskills.component';
 import { EduComponent } from './edu/edu.component';
 import { AwardsComponent } from './awards/awards.component';
-import { ExpComponent } from './exp/exp.component'
+import { ExpComponent } from './exp/exp.component';
+import { SkillsComponent } from './skills/skills.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ExpComponent } from './exp/exp.component'
     CskillsComponent,
     EduComponent,
     AwardsComponent,
-    ExpComponent
+    ExpComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
