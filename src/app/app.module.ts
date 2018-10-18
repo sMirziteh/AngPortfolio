@@ -21,7 +21,9 @@ import { PicsComponent } from './pics/pics.component';
 import { HistoryComponent } from './history/history.component';
 import { IntrestsComponent } from './intrests/intrests.component';
 import { GoalsComponent } from './goals/goals.component';
-import { ReadingComponent } from './reading/reading.component'
+import { ReadingComponent } from './reading/reading.component';
+import { SummaryComponent } from './summary/summary.component';
+import { ProjectsComponent } from './projects/projects.component'
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { ReadingComponent } from './reading/reading.component'
     HistoryComponent,
     IntrestsComponent,
     GoalsComponent,
-    ReadingComponent
+    ReadingComponent,
+    SummaryComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
